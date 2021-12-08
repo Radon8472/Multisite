@@ -156,8 +156,10 @@ class Multisite extends WireData implements Module {
 		if(!strlen($out)) return $out;
 
 		$protocol = $this->wire('config')->https ? 'https' : 'http';
+		$httpHost = strtolower(wire('config')->httpHost);
 
 		foreach($this->domains as $key => $domain){
+			if($httpHost != $key) continue;
 
 			if($this->modules->isInstalled("LanguageSupportPageNames")) {
 				foreach($this->languages as $lang) {
