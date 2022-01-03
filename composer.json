@@ -1,0 +1,46 @@
+{
+  "name": "somatonic/multisite",
+  "description": "Allows multiple sites with different domains run from single PW-site and database.",
+  "homepage": "https://github.com/somatonic/Multisite.git",
+  "keywords": ["processwire","multisite"],
+  "version": "0.1.2",
+  "type": "pw-module",
+  "authors": [
+    {
+      "name": "Antti Peisa",
+      "email": "antti.peisa@gmail.com",
+      "homepage": "https://github.com/apeisa",
+      "role": "Developer"
+    },
+    {
+      "name": "Teppo Koivula",
+      "email": "teppo@piikkilanka.com",
+      "homepage": "https://github.com/teppokoivula",
+      "role": "Developer"
+    },
+    {
+      "name": "Arjen Blokzijl ",
+      "email": "arjenblokzijl@gmail.com",
+      "homepage": "https://github.com/arjenblokzijl",
+      "role": "Developer"
+    },
+    {
+      "name": "Philipp 'Soma' Urlich",
+      "email": "philipp@urlich.ch",
+      "homepage": "https://github.com/somatonic",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+      "issues": "https://github.com/somatonic/Multisite/issues",
+      "forum": "https://processwire.com/talk/topic/1025-multisite/"
+  },
+  "require": {
+    "hari/pw-module": "~1.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  }
+}
