@@ -3,7 +3,7 @@
   "description": "Allows multiple sites with different domains run from single PW-site and database.",
   "homepage": "https://github.com/somatonic/Multisite.git",
   "keywords": ["processwire","multisite"],
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "pw-module",
   "authors": [
     {
@@ -28,6 +28,12 @@
       "name": "Philipp 'Soma' Urlich",
       "email": "philipp@urlich.ch",
       "homepage": "https://github.com/somatonic",
+      "role": "Developer"
+    },
+    {
+      "name": "Peter Gunold",
+      "email": "p.gunold@xport.de",
+      "homepage": "https://github.com/Radon8472",
       "role": "Developer"
     }
   ],
